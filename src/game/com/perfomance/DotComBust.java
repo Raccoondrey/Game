@@ -9,6 +9,7 @@ public class DotComBust {
     private GameHelper helper = new GameHelper();
     private ArrayList<DotCom> dotComsList = new ArrayList<DotCom>();
     private int numOfGuesses = 0;
+    private String test = new String("Test");
 
     private void setUpGame() {
         DotCom one = new DotCom();
